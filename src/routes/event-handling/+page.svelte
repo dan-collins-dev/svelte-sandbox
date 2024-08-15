@@ -21,3 +21,6 @@
     <button on:click={(event) => handleClick(event, 10)}>Count: {count}</button>
 </section>
 
+<h2>Notes</h2>
+<p>Handy notes at <a href="https://svelte.dev/docs/element-directives#on-eventname">the svelte docs</a></p>
+

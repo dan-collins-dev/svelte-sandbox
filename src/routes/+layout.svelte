@@ -1,6 +1,17 @@
 <script>
+    import "../app.css"
+
     import { base } from '$app/paths';
+    import { page } from "$app/stores";
 </script>
-<a href="{base}/">Home</a>
+
+<header>
+    <nav>
+        <a href="{base}/">Home</a>
+    </nav>
+</header>
+
+<style>
+</style>
 
 <slot />
