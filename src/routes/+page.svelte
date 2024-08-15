@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <h1>Svelte Sandbox</h1>
 <p>
 	This project will act as a learning tool and quick reference while I'm learning about Svelte and
