@@ -9,7 +9,7 @@
 	];
 </script>
 
-<a href="/">Home</a>
+<a href="{base}/">Home</a>
 <h1>List Rendering</h1>
 
 <h2>Example 1</h2>
