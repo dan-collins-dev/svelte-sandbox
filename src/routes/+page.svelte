@@ -11,4 +11,6 @@
 <h2>Concepts</h2>
 <ul>
 	<li><a href="{base}/list-rendering">List Rendering</a></li>
+	<li><a href="{base}/event-handling">Event Handling</a></li>
+	<li><a href="{base}/form-handling">Form Handling</a></li>
 </ul>
