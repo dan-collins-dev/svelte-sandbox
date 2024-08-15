@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	const shows = ['Community', 'Avatar: The Last Airbender', 'Star Trek: Deep Space Nine'];
 	const characterNames = [
 		{ first: 'Jeff', last: 'Winger' },
@@ -7,13 +9,20 @@
 	];
 </script>
 
+<a href="/">Home</a>
 <h1>List Rendering</h1>
+
+<h2>Example 1</h2>
+<p>An array of shows are iterated through using an "#each items as item, index (optional)"</p>
 
 <ul>
 	{#each shows as show, index}
 		<li>{index + 1} - {show}</li>
 	{/each}
 </ul>
+
+<h2>Example 2</h2>
+<p>An array of objects that contain the first and last name of a character on the show"</p>
 
 <ul>
 	{#each characterNames as characterName, index}
