@@ -1,4 +1,6 @@
 <script>
+	import { page } from '$app/stores';
+    import {base} from "$app/paths"
 </script>
 
 <h1>Svelte Sandbox</h1>
@@ -9,5 +11,5 @@
 
 <h2>Concepts</h2>
 <ul>
-	<li><a href="/list-rendering">List Rendering</a></li>
+	<li><a href="{base}/list-rendering">List Rendering</a></li>
 </ul>
