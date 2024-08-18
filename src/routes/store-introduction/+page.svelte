@@ -1,6 +1,8 @@
 <script>
+	import AddName from '../../components/AddName.svelte';
 	import Decrement from '../../components/Decrement.svelte';
 	import Display from '../../components/Display.svelte';
+	import DisplayArray from '../../components/DisplayArray.svelte';
 	import Increment from '../../components/Increment.svelte';
 	import Reset from '../../components/Reset.svelte';
 </script>
@@ -23,6 +25,12 @@
 	<Increment />
 	<Decrement />
 	<Reset />
+    <hr>
+    <h1>Example 2: Let's try using arrays!</h1>
+    <p>This example is expanding on the simple counter concept and moving to an array of names.</p>
+    <p>This example has an easier way of handling updating the store value, in this case an arry of names</p>
+    <AddName />
+    <DisplayArray />
 </main>
 
 <style>
