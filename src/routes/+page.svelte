@@ -14,4 +14,6 @@
 	<li><a href="{base}/event-handling">Event Handling</a></li>
 	<li><a href="{base}/form-handling">Form Handling</a></li>
 	<li><a href="{base}/reactivity">Reactivity</a></li>
+	<li><a href="{base}/components-intro">Introduction to Components</a></li>
+	<li><a href="{base}/store-introduction">Introduction to Stores</a></li>
 </ul>
